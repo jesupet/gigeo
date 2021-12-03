@@ -1,0 +1,47 @@
+.container.row {
+    align-items: center;
+}
+
+.profile {
+    
+    &__container {
+        padding: 0;
+        align-items: center;
+    }
+    &__photo {
+        max-width: 94px;
+        border-radius: 84px;
+        border-color: transparent;
+        margin: 0;
+    }
+    &__user {
+        align-items: center;
+        .user__name {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .user__follows {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            font-weight: light;
+            margin: 0;
+        }
+    }
+    .divisor {
+        color: grey;
+    }
+}
+
+.header {
+    &__img {
+        width: 100%;
+        height: 100px;
+        background-size: cover;
+        background-image: url(../img/image-banner.png);
+        background-position: center;
+        @media screen and (min-width: 768px) {
+            height: 200px;
+        }
+    }
+}

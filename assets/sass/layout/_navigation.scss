@@ -1,0 +1,17 @@
+.navbar {
+    width: 100%;
+}
+
+.navbar-brand {
+    &__logo {
+        width: 300px;
+    }
+}
+
+.navbar-light .navbar-toggler {
+    box-sizing: border-box;
+    border-color: transparent;
+    color: #000;
+    
+    
+}

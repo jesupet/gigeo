@@ -1,0 +1,28 @@
+.videos {
+    h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 20px 0;
+        @media screen and (min-width: 768px) {
+            text-align: left;
+            
+        }
+    }
+    &__card {
+        box-sizing: border-box;
+        margin: 10px 0;
+        padding: 0 20px;
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        p{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1rem;
+            font-weight: light;
+        }
+    }
+}
